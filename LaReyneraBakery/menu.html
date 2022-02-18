@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Menu</title>
 </head>
 <body>
-    
+    <header>
+        <img src="images/IMG_2104_logo.png" alt="Bakery sign" />
+        <section class="heading">
+          <h1>La Reynera Bakery</h1>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="nav" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a  class="current" href="menu.html">Menu</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <footer>
+        <p>
+          &copy; 2022 | La Reynera Bakery | 132 W Clark Ave
+          Pharr, TX 78577 |All Rights Reserved. Website Design 
+          by Omar Garza.
+          Any use of our name, likeness, or products in conjunction with any 
+          promotion without written consent from La Reynera Bakery is prohibited.<br />
+          Current Date: <span class="footertext" id="currentDate"> </span>
+        </p>
+      </footer>
+
+    <script src="js/menu-button.js"></script>    
+    <script src="js/date.js"></script>
 </body>
 </html>
