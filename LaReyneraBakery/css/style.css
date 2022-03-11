@@ -98,6 +98,60 @@ h2{
   text-align: center;
 }
 
+/*************Contact Us***********************/
+.contandmap{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.googlemap{
+  max-height: 200px;
+  margin-top: 20px;
+  margin-left:100px;
+
+}
+.cont {
+  border: solid #A7AAA4 1px;
+  background-color: #8B9556;
+  padding: .5em;
+  margin-top: 1em;
+  font-size: 18px;
+}
+.contact {
+  text-align: center;
+}
+form fieldset{
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px solid black;
+  padding: 1rem;
+  background-color: #8B9556;
+  
+}
+form legend{
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+form label.top, form div{
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+form input.submitBtn{
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  max-width: 20rem;
+  font-size: 20px;
+}
+form label.top input, form label.top select{
+  display: block;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding:.4rem;
+  width: 100%;
+  max-width: 20rem;
+}
+
 /*************Footer***************************/
 
 footer {
