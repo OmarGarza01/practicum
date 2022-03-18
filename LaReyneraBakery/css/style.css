@@ -151,6 +151,21 @@ form label.top input, form label.top select{
   width: 100%;
   max-width: 20rem;
 }
+/*************Menu***************************/
+.items{
+  background-color: #8B9556;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.items img{
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+}
 
 /*************Footer***************************/
 

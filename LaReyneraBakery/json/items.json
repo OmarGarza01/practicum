@@ -31,7 +31,22 @@
         "photo": "images/chile.jpg"
         
         
+      },
+      {
+        "name": "Tortillas de Harina hecho a mano",
+        "photo": "images/harina.jpg"
+
+
+      },
+      {
+        "name": "Sweets",
+        "photo": "images/sweets.jpg"
+
         
       }
+     
+
+      
+
     ]
   }
