@@ -2,45 +2,45 @@
     "items": [
       {
         "name": "Sweet Bread",
-        "photo": "images/bread.jpg"
+        "photo": "images/bread.JPG"
                 
     
       },
       {
         "name": "Corn dough",
-        "photo": "images/corn.jpg"
+        "photo": "images/corn.JPG"
         
         
         
       },
       {
         "name": "Barbacoa",
-        "photo": "images/barbacoa.jpg"
+        "photo": "images/barbacoa.JPG"
         
         
         
       },
       {
         "name": "Chair and tables for rent",
-        "photo": "images/chairs.jpg"
+        "photo": "images/chairs.JPG"
         
         
       },
       {
         "name": "Chile and tamales supplies",
-        "photo": "images/chile.jpg"
+        "photo": "images/chile.JPG"
         
         
       },
       {
         "name": "Tortillas de Harina",
-        "photo": "images/harina.jpg"
+        "photo": "images/harina.JPG"
 
 
       },
       {
         "name": "Sweets",
-        "photo": "images/sweets.jpg"
+        "photo": "images/sweets.JPG"
 
         
       }
