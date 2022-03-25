@@ -81,7 +81,7 @@ picture img{
 }
 .aboutus{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: #8B9556;
   padding: 2em;
  
@@ -89,7 +89,7 @@ picture img{
 }
 .offer{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: #8B9556;
   padding: 2em;
   
@@ -101,12 +101,12 @@ h2{
 /*************Contact Us***********************/
 .contandmap{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 .googlemap{
-  max-height: 200px;
+  max-height: 300px;
   margin-top: 20px;
-  margin-left:100px;
+  margin-left:50px;
 
 }
 .cont {
@@ -159,7 +159,7 @@ form label.top input, form label.top select{
   padding: 20px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 .items img{
   max-width: 200px;
@@ -193,10 +193,38 @@ footer {
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: 0.6rem 1rem;
       }
-
- }
+      .items{
+        grid-template-columns: 1fr 1fr;
+      }
+      .offer{
+        
+        grid-template-columns: 1fr 1fr;
+      }
+      .aboutus{
+        
+        grid-template-columns: 1fr 1fr; 
+        
+    }
+    .contandmap{
+      
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
    /*****************Large******************/
 @media only screen and (min-width: 64rem) {
+
+  .items{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .offer{
+    
+    grid-template-columns: 1fr 1fr;
+  }
+  .aboutus{
+    
+    grid-template-columns: 1fr 1fr; 
+    
+}
 
 }
